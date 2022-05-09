@@ -10,7 +10,7 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array [array.lengthc-1];
+  return array [array.length -1];
 }
 
 
@@ -30,6 +30,9 @@ function incrementarPorUno(array) {
   for(var i = 0; i < array.length; i++) {
     nuevoArray[i] = array[i] + 1;
   }
+
+  return nuevoArray;
+
 }
 
 
