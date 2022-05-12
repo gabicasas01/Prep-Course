@@ -29,8 +29,9 @@ function agregarMetodoPrototype(Constructor) {
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
 
-
-
+  Constructor.prototype.saludar = function () {
+    return 'Hello world!';
+  };
 }
 
 function agregarStringInvertida() {
